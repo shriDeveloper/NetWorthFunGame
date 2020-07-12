@@ -355,7 +355,7 @@ function onCalculate(net_worth,name){
             $('#muraka_progress').val(earn_muraka);
             $('#khalifa_progress').val(earn_khalifa);
             $('#penthouse_progress').val(earn_penthouse);
-            $('#penthouse_royal_count').val(earn_penthouse_royal);
+            $('#penthouse_royal_progress').val(earn_penthouse_royal);
 
 
             if(earn_igloo > 100){
@@ -380,7 +380,7 @@ function onCalculate(net_worth,name){
 
             if(earn_penthouse_royal > 100){
               $('#penthouse_royal_progress').hide();
-              $('#penthouse_royal_progress_count').html(''+parseInt(earn_penthouse_royal/100)+'');
+              $('#penthouse_royal_count').html(''+parseInt(earn_penthouse_royal/100)+'');
             }
 
 
